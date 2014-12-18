@@ -1,9 +1,7 @@
 QUARK (QUantum Analysis and Realization Kit)
 =====
 
-####COMS 4115 Project: Quantum Computing Language
-
-A language and compiler implemented in OCaml to build quantum circuits.
+A language compiler implemented in OCaml to build quantum circuits.
 
 ####Instructions
 - Install [Vagrant](https://www.vagrantup.com/downloads.html)
@@ -72,14 +70,3 @@ Run `./quark/quarkc -s quark/shor.qk -c shor.cpp -o shor` and then run the execu
 
 Grover's search can search an unsorted database in O(N<sup>1/2</sup>) time.
 Run `./quark/quarkc -s quark/grover.qk -c grove.cpp -o grover` and then run the executable `./grover`
-
-
-####Team
-In lexicographical order:
-
-| Name                 | UNI     | Role                        |
-|----------------------|---------|-----------------------------|
-| Daria Jung           | djj2115 | Verification and Validation |
-| Jamis Johnson        | jmj2180 | System Architect            |
-| Jim Fan              | lf2422  | Language Guru               |
-| Parthiban Loganathan | pl2487  | Manager                     |
